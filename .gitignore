@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.vscode/
+.idea/
+*.log
+# 忽略所有本地 env 文件
+.env.*
+!/.env.example

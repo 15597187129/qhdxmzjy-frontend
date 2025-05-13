@@ -1,0 +1,9 @@
+/* 重置 body、html、#app */
+html, body, #app {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow-x: hidden; /* 禁止横向滚动 */
+}
+
+/* 如果首页需要锁定纵向滚动，Home.vue 里可加 overflow:hidden */
